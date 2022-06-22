@@ -20,7 +20,7 @@ import sys
 
 import numpy as np
 
-from Py6S.Params import PredefinedWavelengths, Wavelength
+from Py6S_rpv4.Params import PredefinedWavelengths, Wavelength
 
 
 class Wavelengths:

@@ -5,7 +5,7 @@ import copy
 # Import the Matplotlib plotting environment
 from matplotlib.pyplot import *
 
-from Py6S import *
+from Py6S_rpv4 import *
 
 
 # Define a function to easily calculate NDVI

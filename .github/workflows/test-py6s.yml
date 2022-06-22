@@ -31,7 +31,7 @@ jobs:
         run: python setup.py install
       - name: Run tests
         shell: bash -l {0}
-        run: python -m pytest -v --cov-report=xml --cov=Py6S tests/
+        run: python -m pytest -v --cov-report=xml --cov=Py6S_rpv4 tests/
       - name: Get coverage report
         shell: bash -l {0}
         run: coverage report

@@ -4,13 +4,13 @@ from random import random
 import numpy as np
 from IPython.parallel import Client, depend, dependent, require
 
-import Py6S
+import Py6S_rpv4
 
 
-@require("random", "Py6S")
+@require("random", "Py6S_rpv4")
 def run(azimuth, zenith):
-    s = Py6S.SixS()
-    s.ground_reflectance = Py6S.GroundReflectance.HomogeneousRoujean(0.037, 0.0, 0.133)
+    s = Py6S_rpv4.SixS()
+    s.ground_reflectance = Py6S_rpv4.GroundReflectance.HomogeneousRoujean(0.037, 0.0, 0.133)
     s.geometry.view_a = azimuth
     s.geometry.view_z = zenith
     print(zenith)

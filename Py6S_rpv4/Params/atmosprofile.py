@@ -17,7 +17,7 @@
 
 import dateutil.parser
 
-from Py6S.sixs_exceptions import ParameterError
+from Py6S_rpv4.sixs_exceptions import ParameterError
 
 
 class AtmosProfile:
