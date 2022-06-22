@@ -277,7 +277,7 @@ WV_REPLACE
         )
 
     @classmethod
-    def HomogeneousRahman(cls, intensity, asymmetry_factor, structural_parameter):
+    def HomogeneousRahman(cls, intensity, asymmetry_factor, structural_parameter, hot_spot):
         """Parameterisation for a surface BRDF based on the Rahman BRDF model.
 
         The parameters are:
@@ -285,15 +285,17 @@ WV_REPLACE
         - Intensity of the reflectance of the surface (N/D value >= 0)
         - Asymmetry factor, N/D value between -1.0 and 1.0
         - Structural parameter of the medium
+        - Hot spot parameter
 
         """
         return """0 Homogeneous surface
 1 (directional effects)
 8 (Rahman model)
-%f %f %f\n""" % (
+%f %f %f %f\n""" % (
             intensity,
             asymmetry_factor,
             structural_parameter,
+            hot_spot
         )
 
     @classmethod
