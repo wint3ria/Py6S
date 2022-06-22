@@ -17,7 +17,7 @@
 
 import unittest
 
-from Py6S import AeroProfile, AtmosProfile, ParameterError, SixS
+from Py6S_rpv4 import AeroProfile, AtmosProfile, ParameterError, SixS
 
 
 class AtmosProfileTests(unittest.TestCase):

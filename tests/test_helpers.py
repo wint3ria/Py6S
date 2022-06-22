@@ -22,7 +22,7 @@ import urllib
 import numpy as np
 import pytest
 
-from Py6S import AtmosProfile, OutputParsingError, ParameterError, SixS, SixSHelpers
+from Py6S_rpv4 import AtmosProfile, OutputParsingError, ParameterError, SixS, SixSHelpers
 
 test_dir = os.path.relpath(os.path.dirname(__file__))
 

@@ -41,8 +41,8 @@ REQS = ["pysolar>=0.9", "scipy"]
 
 
 setup(
-    name="Py6S",
-    packages=["Py6S", "Py6S.Params", "Py6S.SixSHelpers"],
+    name="Py6S_rpv4",
+    packages=["Py6S_rpv4", "Py6S_rpv4.Params", "Py6S_rpv4.SixSHelpers"],
     install_requires=REQS,
     python_requires=">=3",
     version="1.9.1",

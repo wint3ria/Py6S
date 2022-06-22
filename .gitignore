@@ -9,7 +9,7 @@ doc/build/*
 */._redcar/*
 ._redcar/
 Output.txt
-Py6S.egg-info
+Py6S_rpv4.egg-info
 OutputsJ.txt
 src/GetSpectra.py
 src/Test.py

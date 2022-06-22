@@ -169,10 +169,10 @@ class SixS(object):
             return path
         else:
             return (
-                self._which("sixs.exe")
-                or self._which("sixs")
-                or self._which("sixsV1.1")
-                or self._which("sixsV1.1.exe")
+                self._which("sixs_rpv4.exe")
+                or self._which("sixs_rpv4")
+                or self._which("sixsV1.1_rpv4")
+                or self._which("sixsV1.1_rpv4.exe")
             )
 
     def _which(self, program):

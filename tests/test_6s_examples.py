@@ -17,7 +17,7 @@
 
 import unittest
 
-from Py6S import (
+from Py6S_rpv4 import (
     AeroProfile,
     AtmosCorr,
     AtmosProfile,

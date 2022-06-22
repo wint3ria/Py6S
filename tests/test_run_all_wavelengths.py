@@ -19,7 +19,7 @@ import unittest
 
 import numpy as np
 
-from Py6S import SixS, SixSHelpers
+from Py6S_rpv4 import SixS, SixSHelpers
 
 
 class RunAllWavelengthsTests(unittest.TestCase):

@@ -21,7 +21,7 @@ import unittest
 import numpy as np
 import pytest
 
-from Py6S import (
+from Py6S_rpv4 import (
     AtmosCorr,
     ExecutionError,
     Geometry,
